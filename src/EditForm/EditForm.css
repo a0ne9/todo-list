@@ -1,0 +1,95 @@
+.editform__container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background: darkgrey;
+    border-radius: 10px;
+}
+
+.editform__container_blue {
+    background: deepskyblue;
+}
+
+.editform__container_green {
+    background: forestgreen;
+}
+
+.editform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.editform__button-container {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.editform__title {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    font-family: Arial,sans-serif;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.editform__subtitle {
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    line-height: 17px;
+    font-size: 15px;
+}
+
+.editform__button {
+    height: 30px;
+    width: 100px;
+    font-family: Arial,sans-serif;
+    line-height: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.editform__button:hover {
+    opacity: 0.8;
+}
+.editform__submit-button {
+    line-height: 17px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    background: orangered;
+    border-radius: 5px;
+}
+
+.editform__button_blue {
+    background: cornflowerblue;
+}
+
+
+.editform__button_green {
+    background: #2be080;
+}
+
+.editform__close-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background: orangered;
+    color: white;
+    margin-left: 90%;
+    margin-top: 10px;
+}
